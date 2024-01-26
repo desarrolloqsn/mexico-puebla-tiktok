@@ -503,7 +503,7 @@ const disabledDate = current => {
     anidados: filtros.anidados,
     datos: filtros.datos
     }
-    // console.log(valores)
+
     dispatch(filtrarDatos(valores));
     }
     if(filtros.sinpalabra.length < 1){
@@ -522,7 +522,7 @@ const disabledDate = current => {
       anidados: filtros.anidados,
       datos: filtros.datos
       }
-      // console.log(valores)
+     
       dispatch(filtrarDatos(valores));
     }
     // console.log(filtros.palabra)
