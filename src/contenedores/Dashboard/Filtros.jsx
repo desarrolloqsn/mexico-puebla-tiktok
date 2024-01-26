@@ -534,8 +534,6 @@ const disabledDate = current => {
     }));
   
   }
-
-
   return (
     <div>
     <div className='nombreDashboard'>Análisis -México Puebla- Tiktok {modeloSinEspacios ? `- ${modeloSinEspacios}` : null}</div>
